@@ -1,0 +1,63 @@
+NPL Model
+
+- Creation d'un environnement conda : 
+
+conda create --name (nom de l'environnement)
+
+- Activation de l'environnement conda : 
+
+conda activate (nom de l'environnement)
+
+torch
+#pip install git+https://github.com/deepset-ai/haystack.git@main#egg=farm-haystack[dev,weaviate]
+#!conda install -c conda-forge pdftotext -y
+docx
+#conda install -c conda-forge sentence-transformers
+#conda install -c conda-forge spacy
+#conda install -c conda-forge spacy-model-fr_core_news_md
+
+- Installation des dependences de developpement, weaviate, preprocessing, inference]   : 
+
+pip install git+https://github.com/deepset-ai/haystack.git@main#egg=farm-haystack[weaviate,preprocessing,inference]
+
+- Installation de dépendence de traitement des documents words :
+
+conda install -c conda-forge python-docx
+
+- Installation de dependence de traitement documents pdf (pdftotext)
+
+conda install -c conda-forge pdftotext -y
+
+- Installation de dependence de progression (tqdm) :
+
+pip install tqdm
+
+- Installation de dependence de numpy :
+
+pip install numpy
+
+- Installation de dependence de haystack :
+
+pip install farm-haystack
+
+- Installation de dependence de spacy :
+
+conda install -c conda-forge spacy
+
+- Run the file RI_api.py
+
+PRECONDITION : always activate previous environnment
+
+
+Api 
+conda install -c anaconda flask
+conda install -c conda-forge flask-restx
+conda install -c conda-forge flask-swagger-ui
+conda install -c conda-forge python-decouple
+pip install -U Flask-SQLAlchemy
+conda install -c conda-forge flask-marshmallow
+conda install -c conda-forge flask-jwt-extended
+pip install -U flask-cors
+
+python -m spacy download fr_core_news_md
+
