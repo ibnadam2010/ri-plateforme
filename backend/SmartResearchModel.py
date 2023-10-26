@@ -59,10 +59,10 @@ from haystack import Document, Answer
 # from IPython.utils import capture
 
 
-repertoire_fichiers_a_traiter = "/datadrive/ybardes1/recherche_intelligente_information/DATA"
-openai_api_key = "da295962640c4c3bbd8cb45c2d833f6b"
-deployment_name = "RIproject"
-base_url = "https://lincolnri.openai.azure.com/"
+repertoire_fichiers_a_traiter = "Path_of_folder_that_contains_documents_from_which_search_terms_will_be_based_on"
+openai_api_key = "Your_openai_key"
+deployment_name = "Your_openai_Project_name"
+base_url = "Your_openai_server_url"
 
 
 ## Global config 
