@@ -1,0 +1,64 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "Documentation api Recherche Intelligente",
+    "version": "1.0.0",
+    "title": "Api Recherche Intelligente",
+    "license": {
+      "name": "LINCOLN",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "tags": [
+    {
+      "name": "User",
+      "description": "Test User requests"
+    }
+  ],
+  "servers": [
+    {
+    "url": "/"
+    }
+],
+"components": {
+  "schemas": {
+      "User": {
+          "type": "object",
+          "properties": {
+              "username": {
+              "type": "string"
+              },
+              "email": {
+              "type": "string"
+              },
+              "password": {
+              "type": "string"
+              }
+          }
+      },
+      "Id":{
+      "type" : "integer",
+      "properties" : {
+          "name" : {
+              "type" : "integer"
+          }
+      }
+  },
+      "update":{
+        "type": "object",
+        "properties" :{
+          "username": {
+              "type": "string"
+              },
+            "email": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            }
+        }
+      }
+  }
+}
+
+}
